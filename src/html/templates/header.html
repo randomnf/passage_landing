@@ -1,0 +1,31 @@
+<section class="page-header page-header_page_@@page page__block">
+	@@include('main-nav.html')
+
+	@@if(page === 'plastic'){<span class="page-header__promo-text content-wrap">
+		Пластиковые окна -<br>
+		комфорт и уют<br>
+		в вашем доме
+	</span>}
+
+	@@if(page === 'mansard'){<h1 class="page-title page-header__title content-wrap">
+		Мансардные окна
+		<span class="page-title__subtitle">
+			От ведущих мировых
+			<br>производителей
+		</span>
+	</h1>
+	<ul class="page-header__manufacturers manufacturer-list content-wrap list-reset">
+		<li class="manufacturer-list__item">
+			<img class="manufacturer-list__img img" src="img/velux-logo.png" alt="rehau">
+		</li>
+		<li class="manufacturer-list__item">
+			<img class="manufacturer-list__img img" src="img/fakro-logo.png" alt="rehau">
+		</li>
+	</ul>}
+
+	@@if(page === 'wooden'){<span class="page-header__promo-text page-header__promo-text_page_wooden content-wrap">
+		Деревянные окна.<br>
+		Стиль, экологичность,<br>
+		надежность.
+	</span>}
+</section>

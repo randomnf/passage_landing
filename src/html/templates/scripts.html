@@ -1,0 +1,30 @@
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/script.min.js"></script>
+
+<script>
+	$(window).load(function(){
+		$('.windows-model-slider').flexslider({
+			animation: "slide",
+			direction: "vertical",
+			controlNav: false,
+			animationLoop: false,
+			slideshow: false,
+			controlsContainer: $(".windows-model-slider__controls"),
+			customDirectionNav: $(".windows-model-slider__controls > .calc-slider__btn")
+		});
+	});
+
+	$(window).load(function(){
+		$('.mansard-windows-slider').flexslider({
+			animation: "slide",
+			controlNav: false,
+			animationLoop: false,
+			slideshow: false,
+			itemWidth: 178,
+			itemMargin: 45,
+			controlsContainer: $(".mansard-windows-slider__controls"),
+			customDirectionNav: $(".mansard-windows-slider__btn")
+		});
+	});
+</script>

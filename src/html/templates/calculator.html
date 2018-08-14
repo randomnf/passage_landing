@@ -1,0 +1,511 @@
+<section class="calculator page__block" id="calculator">
+	<div class="calculator__inner row content-wrap">
+		<h2 class="calculator__title title col-12">Рассчитай стоимость своего окна</h2>
+
+		<ul class="calculator-tabs tabs list-reset col-12">
+			<li class="calculator-tabs__item tabs__item">
+				<button class="calculator-tabs__btn tabs__btn btn calculator-tabs__btn_active" data-target="#characteristics">Характеристики</button>
+			</li>
+			<li class="calculator-tabs__item tabs__item">
+				<button class="calculator-tabs__btn tabs__btn btn" data-target="#design">Дизайн и расцветка</button>
+			</li>
+		</ul>
+
+		<section class="calculator-content calculator-content_active-tab col-12" id="characteristics">
+			<div class="calc-slider windows-model-slider">
+				<ul class="calc-list windows-model-list list-reset slides">
+					<li class="calc-list__item">
+						<a class="calc-list__btn calc-list__btn_active" href="#">
+							<img class="calc-list__img img" src="img/window-model.png" alt="модель окна такая-то">
+						</a>
+					</li>
+					<li class="calc-list__item">
+						<a class="calc-list__btn" href="#">
+							<img class="calc-list__img img" src="img/window-model.png" alt="модель окна такая-то">
+						</a>
+					</li>
+					<li class="calc-list__item">
+						<a class="calc-list__btn" href="#">
+							<img class="calc-list__img img" src="img/window-model.png" alt="модель окна такая-то">
+						</a>
+					</li>
+					<li class="calc-list__item">
+						<a class="calc-list__btn" href="#">
+							<img class="calc-list__img img" src="img/window-model.png" alt="модель окна такая-то">
+						</a>
+					</li>
+					<li class="calc-list__item">
+						<a class="calc-list__btn" href="#">
+							<img class="calc-list__img img" src="img/window-model.png" alt="модель окна такая-то">
+						</a>
+					</li>
+					<li class="calc-list__item">
+						<a class="calc-list__btn" href="#">
+							<img class="calc-list__img img" src="img/window-model.png" alt="модель окна такая-то">
+						</a>
+					</li>
+					<li class="calc-list__item">
+						<a class="calc-list__btn" href="#">
+							<img class="calc-list__img img" src="img/window-model.png" alt="модель окна такая-то">
+						</a>
+					</li>
+					<li class="calc-list__item">
+						<a class="calc-list__btn" href="#">
+							<img class="calc-list__img img" src="img/window-model.png" alt="модель окна такая-то">
+						</a>
+					</li>
+					<li class="calc-list__item">
+						<a class="calc-list__btn" href="#">
+							<img class="calc-list__img img" src="img/window-model.png" alt="модель окна такая-то">
+						</a>
+					</li>
+				</ul>
+
+				<div class="calc-slider__controls windows-model-slider__controls">
+					<a class="calc-slider__btn calc-slider__btn_type_prev flex-prev" href="#">след.</a>
+					<a class="calc-slider__btn calc-slider__btn_type_next flex-next" href="#">след.</a>
+				</div>
+			</div>
+
+			<div class="calculator-content__inner">
+				<div class="calculator-visual-result">
+					<div class="calculator-visual-result-viewport">
+						<img class="calculator-visual-result__img img" src="img/calc-default.png" aria-hidden="true">
+					</div>
+					<div class="calculator-visual-result__label-wrap calculator-visual-result__label-wrap_type_bottom">
+						<label class="calculator-visual-result__label">
+							Укажите длину проема, мм:
+							<input class="calc-input calc-input_type_width" type="number" value="1000" min="1" max="10000" name="window-length" required>
+						</label>
+					</div>
+					<div class="calculator-visual-result__label-wrap calculator-visual-result__label-wrap_type_right">
+						<label class="calculator-visual-result__label">
+							Укажите высоту проема, мм:
+							<input class="calc-input calc-input_type_height" type="number" value="1000" min="1" max="10000" name="window-height" required>
+						</label>
+					</div>
+				</div>
+				<div class="calculator-properties">
+					<div class="prop-group">
+						<span class="prop-group__title">Профиль</span>
+						<ul class="prop-list list-reset">
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_profile btn" data-value="Roto NT1" data-value-img="img/roto-logo.png" data-price="900">Roto NT1</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_profile btn calc-prop-btn_active" data-value="Roto NT2" data-value-img="img/maco-logo.png" data-price="1000">Roto NT2</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_profile btn" data-value="Roto NT3" data-value-img="img/roto-logo.png" data-price="1100">Roto NT3</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_profile btn" data-value="Roto NT4" data-value-img="img/maco-logo.png" data-price="1100">Roto NT4</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_profile btn" data-value="Roto NT5" data-value-img="img/roto-logo.png" data-price="1200">Roto NT5</button>
+							</li>
+						</ul>
+					</div>
+					<div class="prop-group">
+						<span class="prop-group__title">Фурнитура</span>
+						<ul class="prop-list list-reset">
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_fittings btn" data-value="Maco1" data-value-img="img/maco-logo.png" data-price="900">Maco1</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_fittings btn calc-prop-btn_active" data-value="Maco2" data-value-img="img/roto-logo.png" data-price="1000">Maco2</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_fittings btn" data-value="Maco3" data-value-img="img/maco-logo.png" data-price="1100">Maco3</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_fittings btn" data-value="Maco4" data-value-img="img/roto-logo.png" data-price="1200">Maco4</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_fittings btn" data-value="Maco5" data-value-img="img/maco-logo.png" data-price="1200">Maco5</button>
+							</li>
+						</ul>
+					</div>
+					<div class="prop-group">
+						<span class="prop-group__title">Тип окна</span>
+						<ul class="prop-list list-reset">
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_type btn calc-prop-btn_active" data-value="Одностворчатое" data-price="1000">Одностворчатое</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_type btn" data-value="Двустворчатое" data-price="1500">Двустворчатое</button>
+							</li>
+						</ul>
+					</div>
+					<div class="prop-group">
+						<span class="prop-group__title">Тип стеклопакета</span>
+						<ul class="prop-list list-reset">
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_glass-type btn calc-prop-btn_active" data-value="Однокамерный" data-price="1000">Однокамерный</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_glass-type btn" data-value="Двухкамерный" data-price="1500">Двухкамерный</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-prop-btn calc-prop-btn_type_glass-type btn" data-value="Трехкамерный" data-price="2000">Трехкамерный</button>
+							</li>
+						</ul>
+					</div>
+					<button class="calculator-properties__btn calc-design-step-btn btn">Перейти к выбору расцветки</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="calculator-content col-12" id="design">
+			<div class="calculator-content__inner">
+				<div class="calculator-visual-result calculator-visual-result_type_design">
+					<div class="calculator-visual-result-viewport calculator-visual-result-viewport_type_design">
+						<div class="calc-res calc-res-toning"></div>
+						<div class="calc-res calc-res-sill"></div>
+						<div class="calc-res calc-res-frame"></div>
+						<div class="calc-res calc-res-slop"></div>
+						<div class="calc-res calc-res-layout"></div>
+						<div class="calc-res calc-res-fittings"></div>
+					</div>
+				</div>
+
+				<div class="calculator-properties calculator-properties_type_design">
+					<ul class="windows-components-list list-reset">
+						<li class="windows-components-list__item">
+							<a class="windows-components-list__btn windows-components-list__btn_active link" href="#" data-target="prop-group-frame">
+								<img class="windows-components-list__img img" src="img/calc_frame.png" alt="Выбор цвета для рамы">
+								<span class="windows-components-list__text">Рама</span>
+							</a>
+						</li>
+						<li class="windows-components-list__item">
+							<a class="windows-components-list__btn link" href="#" data-target="prop-group-fittings">
+								<img class="windows-components-list__img img" src="img/calc_fittings.png" alt="Выбор цвета для фурнитуры">
+								<span class="windows-components-list__text">Фурнитура</span>
+							</a>
+						</li>
+						<li class="windows-components-list__item">
+							<a class="windows-components-list__btn link" href="#" data-target="prop-group-toning">
+								<img class="windows-components-list__img img" src="img/calc_toning.png" alt="Выбор тонировки стелок">
+								<span class="windows-components-list__text">Тонировка</span>
+							</a>
+						</li>
+						<li class="windows-components-list__item">
+							<a class="windows-components-list__btn link" href="#" data-target="prop-group-layout">
+								<img class="windows-components-list__img img" src="img/calc_layout.png" alt="Выбор раскладки">
+								<span class="windows-components-list__text">Раскладка</span>
+							</a>
+						</li>
+						<li class="windows-components-list__item">
+							<a class="windows-components-list__btn link" href="#" data-target="prop-group-slop">
+								<img class="windows-components-list__img img" src="img/calc_slope.png" alt="Выбор цвета для откоска">
+								<span class="windows-components-list__text">Откос</span>
+							</a>
+						</li>
+						<li class="windows-components-list__item">
+							<a class="windows-components-list__btn link" href="#" data-target="prop-group-sill">
+								<img class="windows-components-list__img img" src="img/calc_sill.png" alt="Выбор цвета для подоконника">
+								<span class="windows-components-list__text">Подоконник</span>
+							</a>
+						</li>
+					</ul>
+
+					<div class="prop-group prop-group_type_design prop-group_active prop-group-frame">
+						<span class="prop-group__title">Выберите цвет рамы</span>
+						<ul class="prop-list list-reset">
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_frame btn calc-color-btn_active calc-color-btn_default-option" data-pic="img/calc/rama0.png" data-price="0">
+									<span class="calc-color-btn__img calc-color-btn__img_type_default" aria-hidden="true" style="background-image: url(img/calc/white-comp.png)"></span>
+									<span class="calc-color-btn__text">Белый</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_frame btn" data-pic="img/calc/rama31.png" data-price="500">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama31_sm.png)"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_frame btn" data-pic="img/calc/rama32.png" data-price="500">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama32_sm.png)"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_frame btn" data-pic="img/calc/rama33.png" data-price="550">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama33_sm.png)"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_frame btn" data-pic="img/calc/rama34.png" data-price="550">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama34_sm.png)"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+
+					<div class="prop-group prop-group_type_design prop-group-fittings">
+						<span class="prop-group__title">Выберите цвет фурнитуры</span>
+						<ul class="prop-list list-reset">
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_fittings btn calc-color-btn_active calc-color-btn_default-option" data-pic="img/calc/fit0.png" data-price="0">
+									<span class="calc-color-btn__img calc-color-btn__img_type_default" aria-hidden="true" style="background-image: url(img/calc/white-comp.png)"></span>
+									<span class="calc-color-btn__text">Белый</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_fittings btn" data-pic="img/calc/fit1.png" data-price="200">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-color: #704133"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_fittings btn" data-pic="img/calc/fit2.png" data-price="200">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-color: #d72f03"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_fittings btn" data-pic="img/calc/fit3.png" data-price="300">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-color: #589573"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_fittings btn" data-pic="img/calc/fit4.png" data-price="350">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-color: #0186c5"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+
+					<div class="prop-group prop-group_type_design prop-group-toning">
+						<span class="prop-group__title">Выберите цвет тонировки</span>
+						<ul class="prop-list list-reset">
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_toning btn calc-color-btn_active calc-color-btn_default-option" data-color="transparent" data-price="0">
+									<span class="calc-color-btn__img calc-color-btn__img_type_default calc-color-btn__img_type_default-novalue" aria-hidden="true" style="background-image: url(img/calc/white-comp.png)"></span>
+									<span class="calc-color-btn__text">Без тонировки</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_toning btn" data-color="#B2B2B2" data-price="300">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-color: #B2B2B2"></span>
+									<span class="calc-color-btn__text">Серый 40%</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_toning btn" data-color="#DBDBDB" data-price="300">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-color: #DBDBDB"></span>
+									<span class="calc-color-btn__text">Серый 15%</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_toning btn" data-color="#7A9AE6" data-price="400">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-color: #7A9AE6"></span>
+									<span class="calc-color-btn__text">Светло-синий</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_toning btn" data-color="#43BB7D" data-price="350">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-color: #43BB7D"></span>
+									<span class="calc-color-btn__text">Зеленый</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+
+					<div class="prop-group prop-group_type_design prop-group-layout">
+						<span class="prop-group__title">Выберите цвет раскладки</span>
+						<ul class="prop-list list-reset">
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_layout btn calc-color-btn_active calc-color-btn_default-option" data-pic="none" data-price="0">
+									<span class="calc-color-btn__img calc-color-btn__img_type_default calc-color-btn__img_type_default-novalue" aria-hidden="true" style="background-image: url(img/calc/white-comp.png)"></span>
+									<span class="calc-color-btn__text">Без раскладки</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_layout btn" data-pic="img/calc/lay11.png" data-price="1200">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama31_sm.png)"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_layout btn" data-pic="img/calc/lay12.png" data-price="1200">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama32_sm.png)"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_layout btn" data-pic="img/calc/lay13.png" data-price="1200">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama33_sm.png)"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_layout btn" data-pic="img/calc/lay14.png" data-price="1200">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama34_sm.png)"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+
+					<div class="prop-group prop-group_type_design prop-group-slop">
+						<span class="prop-group__title">Выберите цвет откоса</span>
+						<ul class="prop-list list-reset">
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_slop btn calc-color-btn_active calc-color-btn_default-option" data-pic="img/calc/slop0.png" data-price="0">
+									<span class="calc-color-btn__img calc-color-btn__img_type_default" aria-hidden="true" style="background-image: url(img/calc/white-comp.png)"></span>
+									<span class="calc-color-btn__text">Белый</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_slop btn" data-pic="img/calc/slop1.png" data-price="700">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-color: #DD220F"></span>
+									<span class="calc-color-btn__text">Красный</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_slop btn" data-pic="img/calc/slop33.png" data-price="700">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama33_sm.png"></span>
+									<span class="calc-color-btn__text">Дубец</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_slop btn" data-pic="img/calc/slop34.png" data-price="700">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama34_sm.png"></span>
+									<span class="calc-color-btn__text">Дубец</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_slop btn" data-pic="img/calc/slop35.png" data-price="700">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama35_sm.png"></span>
+									<span class="calc-color-btn__text">Дубец</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_slop btn" data-pic="img/calc/slop36.png" data-price="700">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama36_sm.png"></span>
+									<span class="calc-color-btn__text">Дубец</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+
+					<div class="prop-group prop-group_type_design prop-group-sill">
+						<span class="prop-group__title">Выберите цвет подоконника</span>
+						<ul class="prop-list list-reset">
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_sill btn calc-color-btn_active calc-color-btn_default-option" data-pic="img/calc/sill0.png" data-price="0">
+									<span class="calc-color-btn__img calc-color-btn__img_type_default" aria-hidden="true" style="background-image: url(img/calc/white-comp.png)"></span>
+									<span class="calc-color-btn__text">Белый</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_sill btn" data-pic="img/calc/sill31.png" data-price="500">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama31_sm.png)"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_sill btn" data-pic="img/calc/sill32.png" data-price="500">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama32_sm.png)"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_sill btn" data-pic="img/calc/sill33.png" data-price="500">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama33_sm.png)"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_sill btn" data-pic="img/calc/sill36.png" data-price="500">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-image: url(img/calc/rama36_sm.png)"></span>
+									<span class="calc-color-btn__text">Черная вишня</span>
+								</button>
+							</li>
+							<li class="prop-list__item">
+								<button class="calc-color-btn calc-color-btn_type_sill btn" data-pic="img/calc/sill1.png" data-price="500">
+									<span class="calc-color-btn__img" aria-hidden="true" style="background-color: #dd220f"></span>
+									<span class="calc-color-btn__text">Красный</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+
+					<button class="calculator-properties__btn calc-reset-btn btn">Сбросить расцветку</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="calculator-config">
+			<h3 class="calculator-config__title title">Текущая конфигурация окна</h3>
+
+			<div class="calculator-config__prop-group">
+				<div class="config-group calculator-config__group">
+					<span class="config-group__title">Размер и тип окна</span>
+					<span class="config-group__value">Длина:
+						<output class="window-width-value">1000</output> мм
+					</span>
+					<span class="config-group__value">Ширина:
+						<output class="window-height-value">1000</output>
+						мм
+					</span>
+					<span class="config-group__value">Тип окна:
+						<output class="type-target">Одностворчатое</output>
+					</span>
+					<span class="config-group__value">Тип стеклопакета:
+						<output class="glass-type-target">Однокамерный</output>
+					</span>
+				</div>
+				<div class="config-group calculator-config__group">
+					<span class="config-group__title">Профиль</span>
+					<img class="config-group__img img profile-target" src="img/rehau-logo.png" alt="Rehau">
+				</div>
+				<div class="config-group calculator-config__group">
+					<span class="config-group__title">Фурнитура</span>
+					<img class="config-group__img img fittings-target" src="img/roto-logo.png" alt="Roto">
+				</div>
+				<div class="config-group calculator-config__group calculator-config__group_type_frame config-group_hidden">
+					<span class="config-group__title">Цвет рамы</span>
+					<span class="config-group__color" style="background-color: #d72f03"></span>
+					<span class="config-group__text">Черная вишня</span>
+				</div>
+				<div class="config-group calculator-config__group calculator-config__group_type_fittings config-group_hidden">
+					<span class="config-group__title">Цвет Фурнитуры</span>
+					<span class="config-group__color" style="background-color: #d72f03"></span>
+					<span class="config-group__text">Черная вишня</span>
+				</div>
+				<div class="config-group calculator-config__group calculator-config__group_type_toning config-group_hidden">
+					<span class="config-group__title">Тонировка</span>
+					<span class="config-group__color" style="background-color: #43BB7D"></span>
+					<span class="config-group__text">Бородец</span>
+				</div>
+				<div class="config-group calculator-config__group calculator-config__group_type_layout config-group_hidden">
+					<span class="config-group__title">Раскладка</span>
+					<span class="config-group__color" style="background-image: url(img/calc/rama32_sm.png)"></span>
+					<span class="config-group__text">Дубец</span>
+				</div>
+				<div class="config-group calculator-config__group calculator-config__group_type_slop config-group_hidden">
+					<span class="config-group__title">Цвет откоса</span>
+					<span class="config-group__color" style="background-image: url(img/calc/rama32_sm.png)"></span>
+					<span class="config-group__text">Дубец</span>
+				</div>
+				<div class="config-group calculator-config__group calculator-config__group_type_sill config-group_hidden">
+					<span class="config-group__title">Цвет подоконника</span>
+					<span class="config-group__color" style="background-image: url(img/calc/rama32_sm.png)"></span>
+					<span class="config-group__text">Дубец</span>
+				</div>
+			</div>
+
+			<div class="config-group calculator-config__price-group">
+				<span class="config-group__title">Стоимость</span>
+				<span class="config-group__price-value"><output class="window-price-value">10 000</output> руб.</span>
+			</div>
+		</section>
+	</div>
+</section>
